@@ -23,6 +23,12 @@ h3 {
     color: #11999E;
 }
 
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
 
 .top-container {
     background-color: #E4F9F5;
@@ -35,7 +41,10 @@ h3 {
 }
 
 .bottom-container {
-    margin: 100px 0;
+    background-color: #66BFBF;
+    margin: 100px 0 0;
+    padding: 50px 0 20px;
+    
 }
 
 .top-cloud {
@@ -67,15 +76,34 @@ h3 {
     margin-right: 30px;
 }
 
-.profile {
-    width: 35%;
+.profile-pic {
+    width: 15%;
     margin: 0 auto;
 }
 
-
 .intro {
-    width: 90%;
-    margin: 0 auto;
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+a{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 
 /* body {
