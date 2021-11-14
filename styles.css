@@ -1,9 +1,37 @@
 body {
-    background-color: #D1E8E4;
+    margin: 0;
+}
+
+div {
+    background-color: #E4F9F5;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+}
+
+.mid-container {
+    background-color: red;
+}
+
+.bot-container {
+    background-color: blue;
+}
+
+
+
+
+
+/* body {
+    background-color: #E4F9F5;
 }
 
 hr {
-    background-color: #D1E8E4;
+    background-color: #E4F9F5;
     border-style: dotted none none;
     border-color: grey;
     border-width: 5px;
@@ -18,3 +46,22 @@ h1 {
 h3 {
     color: #66BFBF;
 }
+
+img:hover {
+    background-color: red;
+}
+
+img {
+    border-radius: 50%;
+} */
+
+/* CLASSES */
+
+/* .dog {
+    background-color: royalblue;
+}
+
+.cat {
+    background-color: gold;
+} */
+
