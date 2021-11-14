@@ -1,17 +1,14 @@
 body {
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family:'Merriweather', serif;
 }
 
-div {
-    background-color: #E4F9F5;
-}
 
 h1 {
     color: #66BFBF;
     font-size: 5.625rem;
-    line-height: 2;
     margin: 50px auto 0 auto;
 }
 
@@ -19,11 +16,13 @@ h2 {
     color: #66BFBF;
     font-size: 2.5rem;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
     color: #11999E;
 }
+
 
 .top-container {
     background-color: #E4F9F5;
@@ -31,6 +30,13 @@ h3 {
     padding-top: 80px;
 }
 
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    margin: 100px 0;
+}
 
 .top-cloud {
     position: absolute;
@@ -48,9 +54,29 @@ h3 {
     text-decoration: underline;
 }
 
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.profile {
+    width: 35%;
+    margin: 0 auto;
+}
 
 
-
+.intro {
+    width: 90%;
+    margin: 0 auto;
+}
 
 /* body {
     background-color: #E4F9F5;
